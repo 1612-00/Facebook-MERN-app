@@ -1,0 +1,147 @@
+.topbar {
+  z-index: 999;
+  background-color: white;
+  border-bottom: 1px solid #eee;
+  -webkit-box-shadow: 1px 9px 8px -4px rgba(0, 0, 0, 0.1);
+  box-shadow: 1px 9px 8px -4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+}
+
+.topbarWrapper {
+  padding: 0 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topbarLeft {
+  display: flex;
+  align-items: center;
+}
+
+.topbarLogo {
+  width: 55px;
+  height: 55px;
+  cursor: pointer;
+}
+
+.topbarSearch {
+  display: flex;
+  padding: 9px;
+  border-radius: 20px;
+  background-color: #f0f2f5;
+}
+
+.topbarSearchLogo {
+  font-size: 22px !important;
+  font-weight: 200;
+}
+
+.topbarSearchInput {
+  margin-left: 10px;
+  border: none;
+  background-color: #f0f2f5;
+}
+
+.topbarSearchInput:focus {
+  outline: none;
+}
+
+.topbarPageLogos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.topbarPageLogo {
+  width: 120px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.topbarPageLogo .logo {
+  font-size: 30px !important;
+}
+
+.topbarRight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topbarProfile {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.logo {
+  opacity: 0.6;
+}
+
+.topbarAvatar {
+  width: 28px;
+  height: 28px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 0.5px solid #ddd;
+  margin-right: 8px;
+}
+
+.topbarUsername {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.topbarProfileLogos {
+  display: flex;
+}
+
+.topbarProfileLogo {
+  width: 40px;
+  height: 40px;
+  margin: 0 6px;
+  border-radius: 50%;
+  position: relative;
+  background-color: #e4e6eb;
+}
+
+.topbarProfileLogo .logo {
+  display: flex;
+  position: relative;
+  top: 7px;
+  left: 7px;
+}
+
+.topbarIconBadgeMid {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  position: absolute;
+  top: -9px;
+  left: 70px;
+  z-index: 999;
+}
+
+.topbarIconBadgeRight {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  position: absolute;
+  top: -6px;
+  left: 29px;
+  z-index: 999;
+}

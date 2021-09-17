@@ -1,0 +1,107 @@
+.post {
+  -webkit-box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.28);
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.28);
+  background-color: white;
+  border-radius: 8px;
+  position: relative;
+  margin: 20px 0;
+}
+
+.postTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+
+}
+
+.postTopProfile {
+  display: flex;
+  align-items: center;
+}
+
+.postAvatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 12px;
+  border: 2px solid #eee;
+}
+
+.postMiddle {
+  width: 100%;
+  height: 100%;
+}
+
+.postDesc {
+  margin: 0 20px;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.postImg {
+  margin-top: 20px;
+  width: 100%;
+  object-fit: cover;
+  max-height: 500px;
+}
+
+
+.postBottom {
+  padding: 15px;
+}
+
+.postBottomInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.postBottomInfoLeft {
+  display: flex;
+  align-items: center;
+}
+
+.postBottomInfoIcon {
+  width: 18px;
+  height: 18px;
+  border: 0.5px solid white;
+}
+
+.postBottomInfoText {
+  font-size: 15px;
+  font-weight: 300;
+  opacity: 0.8;
+  margin-left: 10px;
+}
+
+.postBottomInfoComment {
+  font-size: 15px;
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+.postBottomHr {
+  opacity: 0.5;
+  margin: 10px 0;
+}
+
+.postBottomActions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.postBottomAction {
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px 30px;
+}
+
+.postBottomAction:hover {
+  background-color: #f0f2f5;
+}
+
+.postBottomActionIcon {
+  margin-right: 10px;
+}
