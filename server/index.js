@@ -5,6 +5,7 @@ const app = express();
 const port = 5000;
 
 const authRouter = require("./routes/auth");
+const postRouter = require("./routes/post");
 
 dotenv.config();
 
@@ -27,6 +28,7 @@ connectDB();
 app.use(express.json());
 
 app.use("/api/auth", authRouter);
+app.use("/api/post", postRouter);
 
 app.listen(port, () => {
   console.log("Server on port " + port);

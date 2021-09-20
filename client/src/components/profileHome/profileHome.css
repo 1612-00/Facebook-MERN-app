@@ -1,0 +1,137 @@
+.profileHomeTop {
+  padding: 0 15%;
+  background-color: white;
+  height: 520px;
+}
+
+.profileInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profileImg {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.coverImg {
+  width: 70vw;
+  height: 350px;
+  object-fit: cover;
+}
+
+.avatarImg {
+  width: 170px;
+  height: 170px;
+  border: 2px solid #eee;
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+  top: 200px;
+  left: 40%;
+  align-items: center;
+}
+
+.profileName {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.profileUsername {
+  font-size: 33px;
+  font-weight: 900;
+  margin-bottom: 5px;
+}
+
+.profileOtherName {
+  font-size: 17px;
+  font-weight: 400;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+.profileHomeTopHr {
+  margin: 0 20px;
+  opacity: 0.5;
+  margin-bottom: 5px;
+}
+
+.profileHomeTopLinks {
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.profilePageLinks {
+  display: flex;
+  align-items: center;
+}
+
+.profilePageLink {
+  padding: 15px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  text-align: center;
+  border-radius: 5px;
+  opacity: 0.6;
+}
+
+.profilePageLink:hover {
+  background-color: #eee;
+}
+
+.amountFriends {
+  margin-left: 5px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.moreIcon {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.profileEditLinks {
+  display: flex;
+  align-items: center;
+}
+
+.profileEditLink {
+  display: flex;
+  align-items: center;
+  background-color: #eee;
+  padding: 8px 15px;
+  margin: 0 5px;
+  border-radius: 5px;
+}
+
+.addLink {
+  background-color: #1877f2;
+  color: white;
+}
+
+.addIcon {
+  font-size: 18px !important;
+  background-color: white;
+  border-radius: 50%;
+  margin-right: 5px;
+  color: #1877f2;
+}
+
+.editIcon {
+  font-size: 18px !important;
+  margin-right: 5px;
+}
+
+.MoreHorizIcon {
+  font-size: 20px !important; 
+}

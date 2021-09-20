@@ -2,3 +2,8 @@
   display: flex;
   background-color: #f0f2f5;
 }
+
+.homeFeed {
+  width: 38%;
+  padding: 10px 80px;
+}

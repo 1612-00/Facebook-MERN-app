@@ -117,7 +117,7 @@
 .topbarIconBadgeMid {
   width: 20px;
   height: 20px;
-  background-color: red;
+  background-color: #f02849;
   border-radius: 50%;
   color: white;
   display: flex;
@@ -133,7 +133,7 @@
 .topbarIconBadgeRight {
   width: 20px;
   height: 20px;
-  background-color: red;
+  background-color: #f02849;
   border-radius: 50%;
   color: white;
   display: flex;
